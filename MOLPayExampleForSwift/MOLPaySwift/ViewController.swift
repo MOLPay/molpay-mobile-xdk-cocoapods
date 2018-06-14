@@ -53,6 +53,9 @@ class ViewController: UIViewController, MOLPayLibDelegate {
             //"mp_channel_editing": NSNumber.init(booleanLiteral:false), // Option to allow channel selection.
             //"mp_editing_enabled": NSNumber.init(booleanLiteral:false), // Option to allow billing information editing.
             
+            // Optional, enable for online sandbox testing.
+            //"mp_dev_mode": NSNumber.init(booleanLiteral:false),
+            
             // Optional for Escrow
             //"mp_is_escrow": "0", // Put "1" to enable escrow
             
@@ -106,8 +109,17 @@ class ViewController: UIViewController, MOLPayLibDelegate {
             // Optional, EN, MS, VI, TH, FIL, MY, KM, ID, ZH.
             //"mp_language": "EN",
             
-            // Optional, enable for online sandbox testing.
-            //"mp_dev_mode": NSNumber.init(booleanLiteral:false)
+            // Optional, Cash channel payment request expiration duration in hour.
+            //@"mp_cash_waittime": @"48",
+            
+            // Optional, allow bypass of 3DS on some credit card channels.
+            //"mp_non_3DS": NSNumber.init(booleanLiteral:true),
+            
+            // Optional, disable card list option.
+            //"mp_card_list_disabled": NSNumber.init(booleanLiteral:true),
+            
+            // Optional for channels restriction, this option has less priority than mp_allowed_channels.
+            //"mp_disabled_channels": ["credit"]
         ]
 
         self.mp = MOLPayLib(delegate:self, andPaymentDetails: paymentRequestDict)

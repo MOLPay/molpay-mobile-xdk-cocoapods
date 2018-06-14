@@ -74,6 +74,8 @@
                                           //@"mp_language": @"EN" // Optional, EN, MS, VI, TH, FIL, MY, KM, ID, ZH.
                                           //@"mp_cash_waittime": @"48" // Optional, Cash channel payment request expiration duration in hour.
                                           //@"mp_non_3DS": [NSNumber numberWithBool:YES] // Optional, allow non-3ds on some credit card channels.
+                                          //@"mp_card_list_disabled": [NSNumber numberWithBool:YES] // Optional, disable card list option.
+                                          //@"mp_disabled_channels": [NSArray arrayWithObjects:@"credit", nil] // Optional for channels restriction, this option has less priority than mp_allowed_channels.
                                           };
     
     mp = [[MOLPayLib alloc] initWithDelegate:self andPaymentDetails:paymentRequestDict];

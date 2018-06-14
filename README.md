@@ -58,181 +58,193 @@ This is the complete and functional MOLPay iOS payment module that is ready to b
 ### For Objective-C
 
     NSDictionary * paymentRequestDict = @{
-        // Mandatory String. A value more than '1.00'
-        @"mp_amount": @"1.10",
+        // Optional, REQUIRED when use online Sandbox environment and account credentials.
+        @"mp_dev_mode": [NSNumber numberWithBool:NO],
     
-        // Mandatory String. Values obtained from MOLPay
+        // Mandatory String. Values obtained from MOLPay.
         @"mp_username": @"username",
         @"mp_password": @"password",
         @"mp_merchant_ID": @"merchantid",
         @"mp_app_name": @"appname",
         @"mp_verification_key": @"vkey123",
     
-        // Mandatory String. Payment values
+        // Mandatory String. Payment values.
+        @"mp_amount": @"1.10", // Minimum 1.01
         @"mp_order_ID": @"orderid123",
         @"mp_currency": @"MYR",
         @"mp_country": @"MY",
         
-        // Optional String.
+        // Optional, but required payment values. User input will be required when values not passed.
         @"mp_channel": @"multi", // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/MOLPay/molpay-mobile-xdk-examples/blob/master/channel_list.tsv.
         @"mp_bill_description": @"billdesc",
         @"mp_bill_name": @"billname",
         @"mp_bill_email": @"email@domain.com",
         @"mp_bill_mobile": @"+1234567",
-        @"mp_channel_editing": [NSNumber numberWithBool:NO], // Option to allow channel selection.
-        @"mp_editing_enabled": [NSNumber numberWithBool:NO], // Option to allow billing information editing.
     
-        // Optional for Escrow
+        // Optional, allow channel selection. 
+        @"mp_channel_editing": [NSNumber numberWithBool:NO],
+    
+        // Optional, allow billing information editing.
+        @"mp_editing_enabled": [NSNumber numberWithBool:NO],
+    
+        // Optional, for Escrow.
         @"mp_is_escrow": @"0", // Put "1" to enable escrow
     
-        // Optional for credit card BIN restrictions
-        @"mp_bin_lock": [NSArray arrayWithObjects:@"414170", @"414171", nil], 
+        // Optional, for credit card BIN restrictions and campaigns.
+        @"mp_bin_lock": [NSArray arrayWithObjects:@"414170", @"414171", nil],
+    
+        // Optional, for mp_bin_lock alert error.
         @"mp_bin_lock_err_msg": @"Only UOB allowed",
         
-        // For transaction request use only, do not use this on payment process
-        @"mp_transaction_id": @"", // Optional, provide a valid cash channel transaction id here will display a payment instruction screen.
+        // WARNING! FOR TRANSACTION QUERY USE ONLY, DO NOT USE THIS ON PAYMENT PROCESS.
+        // Optional, provide a valid cash channel transaction id here will display a payment instruction screen. Required if mp_request_type is 'Receipt'.
+        @"mp_transaction_id": @"",
+        // Optional, use 'Receipt' for Cash channels, and 'Status' for transaction status query.
         @"mp_request_type": @"",
     
-        // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file is provided at Example project source for reference and implementation.
+        // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file can be obtained at https://github.com/MOLPay/molpay-mobile-xdk-examples/blob/master/custom.css.
         @"mp_custom_css_url": [[NSBundle mainBundle] pathForResource:@"custom.css" ofType:nil],
     
-        // Optional, set the token id to nominate a preferred token as the default selection, set "new" to allow new card only
+        // Optional, set the token id to nominate a preferred token as the default selection, set "new" to allow new card only.
         @"mp_preferred_token": @"",
     
-        // Optional, credit card transaction type, set "AUTH" to authorize the transaction
+        // Optional, credit card transaction type, set "AUTH" to authorize the transaction.
         @"mp_tcctype": @"",
     
-        // Optional, set true to process this transaction through the recurring api, please refer the MOLPay Recurring API pdf  
+        // Optional, required valid credit card channel, set true to process this transaction through the recurring api, please refer the MOLPay Recurring API pdf. 
         @"mp_is_recurring": [NSNumber numberWithBool:NO],
     
-        // Optional for channels restriction 
+        // Optional, show nominated channels.
         @"mp_allowed_channels": [NSArray arrayWithObjects:@"credit", @"credit3", nil],
     
-        // Optional for sandboxed development environment, set boolean value to enable. 
+        // Optional, simulate offline payment, set boolean value to enable. 
         @"mp_sandbox_mode": [NSNumber numberWithBool:YES],
     
         // Optional, required a valid mp_channel value, this will skip the payment info page and go direct to the payment screen.
         @"mp_express_mode": [NSNumber numberWithBool:YES],
     
-        // Optional, enable this for extended email format validation based on W3C standards.
+        // Optional, extended email format validation based on W3C standards.
         @"mp_advanced_email_validation_enabled": [NSNumber numberWithBool:YES],
     
-        // Optional, enable this for extended phone format validation based on Google i18n standards.
+        // Optional, extended phone format validation based on Google i18n standards.
         @"mp_advanced_phone_validation_enabled": [NSNumber numberWithBool:YES],
     
-        // Optional, explicitly force disable billing name edit.
+        // Optional, explicitly force disable user input.
         @"mp_bill_name_edit_disabled": [NSNumber numberWithBool:YES],
-    
-        // Optional, explicitly force disable billing email edit.
         @"mp_bill_email_edit_disabled": [NSNumber numberWithBool:YES],
-    
-        // Optional, explicitly force disable billing mobile edit.
         @"mp_bill_mobile_edit_disabled": [NSNumber numberWithBool:YES],
-    
-        // Optional, explicitly force disable billing description edit.
         @"mp_bill_description_edit_disabled": [NSNumber numberWithBool:YES],
     
         // Optional, EN, MS, VI, TH, FIL, MY, KM, ID, ZH.
         @"mp_language": @"EN",
     
-        // Optional, enable for online sandbox testing.
-        @"mp_dev_mode": [NSNumber numberWithBool:NO],
-    
         // Optional, Cash channel payment request expiration duration in hour.
         @"mp_cash_waittime": @"48",
         
-        // Optional, allow non-3ds on some credit card channels.
-        @"mp_non_3DS": [NSNumber numberWithBool:YES]
+        // Optional, allow bypass of 3DS on some credit card channels.
+        @"mp_non_3DS": [NSNumber numberWithBool:YES],
+    
+        // Optional, disable card list option.
+        @"mp_card_list_disabled": [NSArray arrayWithObjects:@"credit", nil],
+    
+        // Optional for channels restriction, this option has less priority than mp_allowed_channels.
+        @"mp_disabled_channels": [NSArray arrayWithObjects:@"credit", nil]
     };
 
 ### For Swift
 
     let paymentRequestDict: [String:Any] = [
-        // Mandatory String. A value more than '1.00'
-        "mp_amount": "1.10",
+        // Optional, REQUIRED when use online Sandbox environment and account credentials.
+        "mp_dev_mode": NSNumber.init(booleanLiteral:false),
     
-        // Mandatory String. Values obtained from MOLPay
+        // Mandatory String. Values obtained from MOLPay.
         "mp_username": "username",
         "mp_password": "password",
         "mp_merchant_ID": "merchantid",
         "mp_app_name": "appname",
         "mp_verification_key": "vkey123",
     
-        // Mandatory String. Payment values
+        // Mandatory String. Payment values.
+        "mp_amount": "1.10", // Minimum 1.01
         "mp_order_ID": "orderid123",
         "mp_currency": "MYR",
         "mp_country": "MY",
         
-        // Optional String.
-        "mp_channel": "multi", // Use 'multi' for all available channels option. For individual channel seletion, please refer to "Channel Parameter" in "Channel Lists" in the MOLPay API Spec for Merchant pdf. 
+        // Optional, but required payment values. User input will be required when values not passed.
+        "mp_channel": "multi", // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/MOLPay/molpay-mobile-xdk-examples/blob/master/channel_list.tsv.
         "mp_bill_description": "billdesc",
         "mp_bill_name": "billname",
         "mp_bill_email": "email@domain.com",
-        "mp_bill_mobile": "+1234567"
-        //"mp_channel_editing": NSNumber.init(booleanLiteral:false), // Option to allow channel selection.
-        //"mp_editing_enabled": NSNumber.init(booleanLiteral:false), // Option to allow billing information editing.
+        "mp_bill_mobile": "+1234567",
     
-        // Optional for Escrow
-        //"mp_is_escrow": "0", // Put "1" to enable escrow
+        // Optional, allow channel selection. 
+        "mp_channel_editing": NSNumber.init(booleanLiteral:false),
     
-        // Optional for credit card BIN restrictions
-        //"mp_bin_lock": ["414170", "414171"], 
-        //"mp_bin_lock_err_msg": "Only UOB allowed",
+        // Optional, allow billing information editing.
+        "mp_editing_enabled": NSNumber.init(booleanLiteral:false),
+    
+        // Optional, for Escrow.
+        "mp_is_escrow": "0", // Put "1" to enable escrow
+    
+        // Optional, for credit card BIN restrictions and campaigns.
+        "mp_bin_lock": ["414170", "414171"],    
+    
+        // Optional, for mp_bin_lock alert error.
+        "mp_bin_lock_err_msg": "Only UOB allowed",
         
-        // For transaction request use only, do not use this on payment process
-        //"mp_transaction_id": "", // Optional, provide a valid cash channel transaction id here will display a payment instruction screen.
-        //"mp_request_type": "",
+        // WARNING! FOR TRANSACTION QUERY USE ONLY, DO NOT USE THIS ON PAYMENT PROCESS.
+        // Optional, provide a valid cash channel transaction id here will display a payment instruction screen. Required if mp_request_type is 'Receipt'.
+        "mp_transaction_id": "",
+        // Optional, use 'Receipt' for Cash channels, and 'Status' for transaction status query.
+        "mp_request_type": "",
     
-        // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file is provided at Example project source for reference and implementation.
-        //"mp_custom_css_url": Bundle.main.path(forResource: "custom.css", ofType: nil)!,
+        // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file can be obtained at https://github.com/MOLPay/molpay-mobile-xdk-examples/blob/master/custom.css.
+        "mp_custom_css_url": Bundle.main.path(forResource: "custom.css", ofType: nil)!,
     
-        // Optional, set the token id to nominate a preferred token as the default selection, set "new" to allow new card only
-        //"mp_preferred_token": "",
+        // Optional, set the token id to nominate a preferred token as the default selection, set "new" to allow new card only.
+        "mp_preferred_token": "",
     
-        // Optional, credit card transaction type, set "AUTH" to authorize the transaction
-        //"mp_tcctype": "",
+        // Optional, credit card transaction type, set "AUTH" to authorize the transaction.
+        "mp_tcctype": "",
     
-        // Optional, set true to process this transaction through the recurring api, please refer the MOLPay Recurring API pdf  
-        //"mp_is_recurring": NSNumber.init(booleanLiteral:false),
+        // Optional, required valid credit card channel, set true to process this transaction through the recurring api, please refer the MOLPay Recurring API pdf. 
+        "mp_is_recurring": NSNumber.init(booleanLiteral:false),
     
-        // Optional for channels restriction 
-        //"mp_allowed_channels": ["credit", "credit3"],
+        // Optional, show nominated channels.
+        "mp_allowed_channels": ["credit", "credit3"],
     
-        // Optional for sandboxed development environment, set boolean value to enable. 
-        //"mp_sandbox_mode": NSNumber.init(booleanLiteral:true),
+        // Optional, simulate offline payment, set boolean value to enable. 
+        "mp_sandbox_mode": NSNumber.init(booleanLiteral:true),
     
         // Optional, required a valid mp_channel value, this will skip the payment info page and go direct to the payment screen.
-        //"mp_express_mode": NSNumber.init(booleanLiteral:true),
+        "mp_express_mode": NSNumber.init(booleanLiteral:true),
     
-        // Optional, enable this for extended email format validation based on W3C standards.
-        //"mp_advanced_email_validation_enabled": NSNumber.init(booleanLiteral:true),
+        // Optional, extended email format validation based on W3C standards.
+        "mp_advanced_email_validation_enabled": NSNumber.init(booleanLiteral:true),
     
-        // Optional, enable this for extended phone format validation based on Google i18n standards.
-        //"mp_advanced_phone_validation_enabled": NSNumber.init(booleanLiteral:true),
+        // Optional, extended phone format validation based on Google i18n standards.
+        "mp_advanced_phone_validation_enabled": NSNumber.init(booleanLiteral:true),
     
-        // Optional, explicitly force disable billing name edit.
-        //"mp_bill_name_edit_disabled": NSNumber.init(booleanLiteral:true),
-    
-        // Optional, explicitly force disable billing email edit.
-        //"mp_bill_email_edit_disabled": NSNumber.init(booleanLiteral:true),
-    
-        // Optional, explicitly force disable billing mobile edit.
-        //"mp_bill_mobile_edit_disabled": NSNumber.init(booleanLiteral:true),
-    
-        // Optional, explicitly force disable billing description edit.
-        //"mp_bill_description_edit_disabled": NSNumber.init(booleanLiteral:true),
+        // Optional, explicitly force disable user input.
+        "mp_bill_name_edit_disabled": NSNumber.init(booleanLiteral:true),
+        "mp_bill_email_edit_disabled": NSNumber.init(booleanLiteral:true),
+        "mp_bill_mobile_edit_disabled": NSNumber.init(booleanLiteral:true),
+        "mp_bill_description_edit_disabled": NSNumber.init(booleanLiteral:true),
     
         // Optional, EN, MS, VI, TH, FIL, MY, KM, ID, ZH.
-        //"mp_language": "EN",
-    
-        // Optional, enable for online sandbox testing.
-        //"mp_dev_mode": NSNumber.init(booleanLiteral:false),
+        "mp_language": "EN",
     
         // Optional, Cash channel payment request expiration duration in hour.
-        //@"mp_cash_waittime": @"48",
+        "mp_cash_waittime": 48,
+        
+        // Optional, allow bypass of 3DS on some credit card channels.
+        "mp_non_3DS": NSNumber.init(booleanLiteral:true),
     
-        // Optional, allow non-3ds on some credit card channels.
-        //@"mp_non_3DS": [NSNumber numberWithBool:YES]
+        // Optional, disable card list option.
+        "mp_card_list_disabled": NSNumber.init(booleanLiteral:true),
+    
+        // Optional for channels restriction, this option has less priority than mp_allowed_channels.
+        "mp_disabled_channels": ["credit"]        
     ]
 
 ## Start the payment module
@@ -268,6 +280,8 @@ This is the complete and functional MOLPay iOS payment module that is ready to b
 
 ### For Swift
     func transactionResult(_ result: [AnyHashable: Any]!) {}
+
+## Payment results
     
     =========================================
     Sample transaction result in JSON string:

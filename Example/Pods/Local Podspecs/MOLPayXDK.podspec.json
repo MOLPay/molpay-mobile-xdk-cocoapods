@@ -1,6 +1,6 @@
 {
   "name": "MOLPayXDK",
-  "version": "3.18.0",
+  "version": "3.20.0",
   "summary": "MOLPay Mobile XDK",
   "description": "MOLPay mobile payment for iOS (Cocoapods Framework)",
   "homepage": "https://github.com/MOLPay/molpay-mobile-xdk-cocoapods",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/MOLPay/molpay-mobile-xdk-cocoapods.git",
-    "tag": "3.18.0"
+    "tag": "3.20.0"
   },
   "platforms": {
     "ios": "8.0"
