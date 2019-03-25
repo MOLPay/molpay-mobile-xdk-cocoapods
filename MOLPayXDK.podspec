@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name             = "MOLPayXDK"
-  s.version          = "3.23.1"
+  s.version          = "3.23.2"
   s.summary          = "MOLPay Mobile XDK"
   s.description      = "MOLPay mobile payment for iOS (Cocoapods Framework)"
 
-  s.homepage         = "https://github.com/MOLPay/razer-pay-mobile-xdk-cocoapods"
+  s.homepage         = "https://github.com/MOLPay/rms-mobile-xdk-cocoapods"
   s.license          = 'MIT'
   s.author           = { "MOLPay Mobile Division" => "mobile@molpay.com" }
-  s.source           = { :git => "https://github.com/MOLPay/molpay-mobile-xdk-cocoapods.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/MOLPay/rms-mobile-xdk-cocoapods.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
