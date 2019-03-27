@@ -1,14 +1,14 @@
 <!--
- # license: Copyright © 2011-2016 MOLPay Sdn Bhd. All Rights Reserved. 
+ # license: Copyright © 2011-2019 MOLPay Sdn Bhd. All Rights Reserved. 
  -->
 
 <img src="https://user-images.githubusercontent.com/38641542/39353138-654385dc-4a39-11e8-9710-19e5f03ec62e.jpg">
 
-# molpay-mobile-xdk-cocoapods
+# rms-mobile-xdk-cocoapods
 
-This is the complete and functional MOLPay iOS payment module that is ready to be implemented into Xcode application project through Cocoapods framework. An example Cocoapods application project (Example) is provided for MOLPayXDK framework integration reference.
+This is the complete and functional Razer Merchant Services iOS payment module that is ready to be implemented into Xcode application project through Cocoapods framework. An example Cocoapods application project (Example) is provided for MOLPayXDK framework integration reference.
 
-这是完整的功能性MOLPay iOS支付模块，可以通过Cocoapods框架实现到Xcode应用程序项目中。为MOLPayXDK框架集成参考提供了一个示例Cocoapods应用程序项目（示例）。
+这是完整的功能性 Razer Merchant Services iOS 支付模块，可以通过 Cocoapods 框架实现到 Xcode 应用程序项目中。为 MOLPayXDK 框架集成参考提供了一个示例 Cocoapods 应用程序项目（示例）。
 
 ## Recommended configurations
 
