@@ -6,402 +6,524 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B3FDE5A9FE00A91B1FB3F189ADEFE7B5 /* MOLPayXDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8F9603D7BCF696276FC0C3A2EB04058B /* Build configuration list for PBXAggregateTarget "MOLPayXDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = MOLPayXDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0CA8AF18B0DCE79B521ECE625A2758C1 /* Pods-MOLPayXDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45601AB4B6F7515F7C6F4B8E9F37455C /* Pods-MOLPayXDK_Example-dummy.m */; };
-		31EFB746012BF477B1802217125072A8 /* Pods-MOLPayXDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04362CAA3212A5E12FA581E29B8BFE17 /* Pods-MOLPayXDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99994DC37173F03806CF0D3CD453FE7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0F47D59A4812BB88FFD992DCA459882E /* Pods-MOLPayXDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2C15043FE991001D18546927A38E7A /* Pods-MOLPayXDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E536984B46F9B1BC120F6550F0B39CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		79A00314D57D744988863E24AA19CF04 /* Pods-MOLPayXDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAB6BD06DBA1F25FC0B0F5ADBF3877D /* Pods-MOLPayXDK_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		30EF0CA1B895107D38FC2EE04985AF28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3FDE5A9FE00A91B1FB3F189ADEFE7B5;
+			remoteInfo = MOLPayXDK;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		04362CAA3212A5E12FA581E29B8BFE17 /* Pods-MOLPayXDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MOLPayXDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		0CECED9805A5E62DBC0D26A1C189D28A /* Pods-MOLPayXDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOLPayXDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2963E99EE4A45DDB8D836D1233457769 /* Pods_MOLPayXDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MOLPayXDK_Example.framework; path = "Pods-MOLPayXDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E8728B9731CEC2487DD5FF80A1620CD /* Pods-MOLPayXDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MOLPayXDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		45601AB4B6F7515F7C6F4B8E9F37455C /* Pods-MOLPayXDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MOLPayXDK_Example-dummy.m"; sourceTree = "<group>"; };
-		6CF5BBEA446BF9D6F17CA2BD737AAE53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A1C335DF6F0B67852784381344D4A04 /* Pods-MOLPayXDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MOLPayXDK_Example-resources.sh"; sourceTree = "<group>"; };
-		7D23D8F814228E163E1B028E96D71463 /* MOLPayLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MOLPayLib.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8125808A61E943A627903C978FD96BA /* Pods-MOLPayXDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MOLPayXDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C4E07498992E76F205D309E7551D46D8 /* Pods-MOLPayXDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOLPayXDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E5585163A638B887101728BDE96EB206 /* Pods-MOLPayXDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MOLPayXDK_Example.modulemap"; sourceTree = "<group>"; };
-		EB19D55B57DCD7A4B7BB9424230350D4 /* MOLPayXDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayXDK.framework; sourceTree = "<group>"; };
-		EB499A14394E5F08AD2D806DC23C579B /* Pods-MOLPayXDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOLPayXDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FCCF9BEA1EFF56B8DB2D536C47781351 /* MOLPayXDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MOLPayXDK.bundle; sourceTree = "<group>"; };
+		047584BC93E3A0E4502849D8137A8FFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		31492CF2EEB1594D733A3E6D64A23E5F /* MOLPayXDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MOLPayXDK.bundle; sourceTree = "<group>"; };
+		3685E8859EA1AF5E8AF06D52E92480A8 /* Pods-MOLPayXDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MOLPayXDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63176E82EB287E85FE78DB3A0E1ED2DC /* Pods-MOLPayXDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOLPayXDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B3CFC8ABA7127A0CE25A2F919529A2E /* MOLPayLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOLPayLib.h; path = Pod/Classes/MOLPayLib.h; sourceTree = "<group>"; };
+		71E1D889E93F121255D2F7D203AEC605 /* Pods-MOLPayXDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MOLPayXDK_Example-resources.sh"; sourceTree = "<group>"; };
+		8BAB6BD06DBA1F25FC0B0F5ADBF3877D /* Pods-MOLPayXDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MOLPayXDK_Example-dummy.m"; sourceTree = "<group>"; };
+		92DC97080EC8A8FF8213E1598EC6C87A /* Pods-MOLPayXDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MOLPayXDK_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A25132DC0714F7118C3BC8B656A8C83A /* MOLPayXDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayXDK.framework; sourceTree = "<group>"; };
+		A4051617C43BD17AE8592A50CBD1FEB0 /* Pods_MOLPayXDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MOLPayXDK_Example.framework; path = "Pods-MOLPayXDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA36C4C75FBE1152A3202CDB1856F18F /* MOLPayXDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MOLPayXDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA4FB2DFD0A18EF8434A7ABC8E956EE4 /* Pods-MOLPayXDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOLPayXDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BF2C15043FE991001D18546927A38E7A /* Pods-MOLPayXDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MOLPayXDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		C27158DC6442854C2CB834E64220ECFC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7D33411ACA7CD06C7BE35B522F44E46 /* MOLPayXDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOLPayXDK.xcconfig; sourceTree = "<group>"; };
+		DB85F69EE0D50F7EBD4D91585C458CB7 /* Pods-MOLPayXDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOLPayXDK_Example-Info.plist"; sourceTree = "<group>"; };
+		EFEED78D0D489C9E847C6A72ECA585DA /* Pods-MOLPayXDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOLPayXDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		26222B7AAB3B2AD02446039750277B17 /* Frameworks */ = {
+		CE0ED5814BA5A7A468BDF6AC9A61A2DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99994DC37173F03806CF0D3CD453FE7F /* Foundation.framework in Frameworks */,
+				5E536984B46F9B1BC120F6550F0B39CC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0334ED9443EF668790E1688030DA5379 /* MOLPayXDK */ = {
+		03E640899B01F2E68B52C3DA8642EB36 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				892E0823D26252FAF3CBA9723088619C /* Frameworks */,
-				45DBB80C81F231CEB4CD385C565DABDA /* Pod */,
-				12B05234731A6375903C9636E38C9C3A /* Resources */,
-			);
-			name = MOLPayXDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		12B05234731A6375903C9636E38C9C3A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				FCCF9BEA1EFF56B8DB2D536C47781351 /* MOLPayXDK.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		16DB47B810864B16F6C60F9297770DA4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2963E99EE4A45DDB8D836D1233457769 /* Pods_MOLPayXDK_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		16F62750D26DCB09850FB9F7F47E7531 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8DC3A70F393E2C2D16E6ADDF00B384C8 /* Pods-MOLPayXDK_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		28271DD6A3AFC62451E573F7C09DFEFD /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7D23D8F814228E163E1B028E96D71463 /* MOLPayLib.h */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		45DBB80C81F231CEB4CD385C565DABDA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				28271DD6A3AFC62451E573F7C09DFEFD /* Classes */,
+				047584BC93E3A0E4502849D8137A8FFE /* LICENSE */,
+				BA36C4C75FBE1152A3202CDB1856F18F /* MOLPayXDK.podspec */,
+				C27158DC6442854C2CB834E64220ECFC /* README.md */,
 			);
 			name = Pod;
-			path = Pod;
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		0AC8967E49E07A6F331C5D46F206FC79 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				D7D33411ACA7CD06C7BE35B522F44E46 /* MOLPayXDK.xcconfig */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MOLPayXDK";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		2E443BEBA8776B44EE920DFC6455F198 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E26F8095985729F784B865DE865EE329 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				16DB47B810864B16F6C60F9297770DA4 /* Products */,
-				16F62750D26DCB09850FB9F7F47E7531 /* Targets Support Files */,
+				CB916007DD638AA148EBF561A26FDB04 /* MOLPayXDK */,
 			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		892E0823D26252FAF3CBA9723088619C /* Frameworks */ = {
+		319147887B43DE81E32F5F3756261587 /* Pods-MOLPayXDK_Example */ = {
 			isa = PBXGroup;
 			children = (
-				EB19D55B57DCD7A4B7BB9424230350D4 /* MOLPayXDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8DC3A70F393E2C2D16E6ADDF00B384C8 /* Pods-MOLPayXDK_Example */ = {
-			isa = PBXGroup;
-			children = (
-				6CF5BBEA446BF9D6F17CA2BD737AAE53 /* Info.plist */,
-				E5585163A638B887101728BDE96EB206 /* Pods-MOLPayXDK_Example.modulemap */,
-				2E8728B9731CEC2487DD5FF80A1620CD /* Pods-MOLPayXDK_Example-acknowledgements.markdown */,
-				EB499A14394E5F08AD2D806DC23C579B /* Pods-MOLPayXDK_Example-acknowledgements.plist */,
-				45601AB4B6F7515F7C6F4B8E9F37455C /* Pods-MOLPayXDK_Example-dummy.m */,
-				A8125808A61E943A627903C978FD96BA /* Pods-MOLPayXDK_Example-frameworks.sh */,
-				7A1C335DF6F0B67852784381344D4A04 /* Pods-MOLPayXDK_Example-resources.sh */,
-				04362CAA3212A5E12FA581E29B8BFE17 /* Pods-MOLPayXDK_Example-umbrella.h */,
-				C4E07498992E76F205D309E7551D46D8 /* Pods-MOLPayXDK_Example.debug.xcconfig */,
-				0CECED9805A5E62DBC0D26A1C189D28A /* Pods-MOLPayXDK_Example.release.xcconfig */,
+				92DC97080EC8A8FF8213E1598EC6C87A /* Pods-MOLPayXDK_Example.modulemap */,
+				3685E8859EA1AF5E8AF06D52E92480A8 /* Pods-MOLPayXDK_Example-acknowledgements.markdown */,
+				63176E82EB287E85FE78DB3A0E1ED2DC /* Pods-MOLPayXDK_Example-acknowledgements.plist */,
+				8BAB6BD06DBA1F25FC0B0F5ADBF3877D /* Pods-MOLPayXDK_Example-dummy.m */,
+				DB85F69EE0D50F7EBD4D91585C458CB7 /* Pods-MOLPayXDK_Example-Info.plist */,
+				71E1D889E93F121255D2F7D203AEC605 /* Pods-MOLPayXDK_Example-resources.sh */,
+				BF2C15043FE991001D18546927A38E7A /* Pods-MOLPayXDK_Example-umbrella.h */,
+				EFEED78D0D489C9E847C6A72ECA585DA /* Pods-MOLPayXDK_Example.debug.xcconfig */,
+				BA4FB2DFD0A18EF8434A7ABC8E956EE4 /* Pods-MOLPayXDK_Example.release.xcconfig */,
 			);
 			name = "Pods-MOLPayXDK_Example";
 			path = "Target Support Files/Pods-MOLPayXDK_Example";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		36B29E9948E08E6A8502FE90890AD76B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				319147887B43DE81E32F5F3756261587 /* Pods-MOLPayXDK_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6A8ADCB689EA1A2AD1D8FCFD805F23F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31492CF2EEB1594D733A3E6D64A23E5F /* MOLPayXDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		888C4607E32C50154EA620A75DB54045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A25132DC0714F7118C3BC8B656A8C83A /* MOLPayXDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E26F8095985729F784B865DE865EE329 /* Development Pods */ = {
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0334ED9443EF668790E1688030DA5379 /* MOLPayXDK */,
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
-			name = "Development Pods";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C623247D01AF346FD3527F9CA7CD2ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4051617C43BD17AE8592A50CBD1FEB0 /* Pods_MOLPayXDK_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB916007DD638AA148EBF561A26FDB04 /* MOLPayXDK */ = {
+			isa = PBXGroup;
+			children = (
+				6B3CFC8ABA7127A0CE25A2F919529A2E /* MOLPayLib.h */,
+				888C4607E32C50154EA620A75DB54045 /* Frameworks */,
+				03E640899B01F2E68B52C3DA8642EB36 /* Pod */,
+				6A8ADCB689EA1A2AD1D8FCFD805F23F0 /* Resources */,
+				0AC8967E49E07A6F331C5D46F206FC79 /* Support Files */,
+			);
+			name = MOLPayXDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2E443BEBA8776B44EE920DFC6455F198 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C623247D01AF346FD3527F9CA7CD2ECF /* Products */,
+				36B29E9948E08E6A8502FE90890AD76B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		32397A83D2ED38C7351DC151A1769FA3 /* Headers */ = {
+		830837FE262A77A756F3E244DE36F7C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31EFB746012BF477B1802217125072A8 /* Pods-MOLPayXDK_Example-umbrella.h in Headers */,
+				0F47D59A4812BB88FFD992DCA459882E /* Pods-MOLPayXDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3EBA119CC649EC6003D26CBC27EF1378 /* Pods-MOLPayXDK_Example */ = {
+		DF1A60334BFBBB39D1467F934DF83668 /* Pods-MOLPayXDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFD5B6372D04AE348DAA42D395BBD5EF /* Build configuration list for PBXNativeTarget "Pods-MOLPayXDK_Example" */;
+			buildConfigurationList = F26C4B5A988DC5F95D05C54C9CE14616 /* Build configuration list for PBXNativeTarget "Pods-MOLPayXDK_Example" */;
 			buildPhases = (
-				1823D2E729866942A50A8A49DBD3CC7D /* Sources */,
-				26222B7AAB3B2AD02446039750277B17 /* Frameworks */,
-				32397A83D2ED38C7351DC151A1769FA3 /* Headers */,
+				830837FE262A77A756F3E244DE36F7C0 /* Headers */,
+				1FD632D77D1550F809DEC342290161D9 /* Sources */,
+				CE0ED5814BA5A7A468BDF6AC9A61A2DF /* Frameworks */,
+				086E0CF8E34E97EFB756AD2EDC3D7A5A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				00B7838231D9D21ED5A507C0E3C052EF /* PBXTargetDependency */,
 			);
 			name = "Pods-MOLPayXDK_Example";
 			productName = "Pods-MOLPayXDK_Example";
-			productReference = 2963E99EE4A45DDB8D836D1233457769 /* Pods_MOLPayXDK_Example.framework */;
+			productReference = A4051617C43BD17AE8592A50CBD1FEB0 /* Pods_MOLPayXDK_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 16DB47B810864B16F6C60F9297770DA4 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C623247D01AF346FD3527F9CA7CD2ECF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3EBA119CC649EC6003D26CBC27EF1378 /* Pods-MOLPayXDK_Example */,
+				B3FDE5A9FE00A91B1FB3F189ADEFE7B5 /* MOLPayXDK */,
+				DF1A60334BFBBB39D1467F934DF83668 /* Pods-MOLPayXDK_Example */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		086E0CF8E34E97EFB756AD2EDC3D7A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		1823D2E729866942A50A8A49DBD3CC7D /* Sources */ = {
+		1FD632D77D1550F809DEC342290161D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CA8AF18B0DCE79B521ECE625A2758C1 /* Pods-MOLPayXDK_Example-dummy.m in Sources */,
+				79A00314D57D744988863E24AA19CF04 /* Pods-MOLPayXDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		00B7838231D9D21ED5A507C0E3C052EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MOLPayXDK;
+			target = B3FDE5A9FE00A91B1FB3F189ADEFE7B5 /* MOLPayXDK */;
+			targetProxy = 30EF0CA1B895107D38FC2EE04985AF28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		157D7F6C6E542A4C4E2658F27B6B22E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CECED9805A5E62DBC0D26A1C189D28A /* Pods-MOLPayXDK_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MOLPayXDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MOLPayXDK_Example/Pods-MOLPayXDK_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MOLPayXDK_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2CBCEB795EC0A4E5BB35D82EDB3A3BAB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4E07498992E76F205D309E7551D46D8 /* Pods-MOLPayXDK_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MOLPayXDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MOLPayXDK_Example/Pods-MOLPayXDK_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MOLPayXDK_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+		43FA98C89EC64EE1819F6727E3553FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA4FB2DFD0A18EF8434A7ABC8E956EE4 /* Pods-MOLPayXDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MOLPayXDK_Example/Pods-MOLPayXDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MOLPayXDK_Example/Pods-MOLPayXDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F31F3B6CD398D70E45420C7A215E1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFEED78D0D489C9E847C6A72ECA585DA /* Pods-MOLPayXDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MOLPayXDK_Example/Pods-MOLPayXDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MOLPayXDK_Example/Pods-MOLPayXDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61976C911A5A8BE77EB05587950AC4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D33411ACA7CD06C7BE35B522F44E46 /* MOLPayXDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		A4596610A5906C0A8C5D1877E2342238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D33411ACA7CD06C7BE35B522F44E46 /* MOLPayXDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
-				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFD5B6372D04AE348DAA42D395BBD5EF /* Build configuration list for PBXNativeTarget "Pods-MOLPayXDK_Example" */ = {
+		8F9603D7BCF696276FC0C3A2EB04058B /* Build configuration list for PBXAggregateTarget "MOLPayXDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CBCEB795EC0A4E5BB35D82EDB3A3BAB /* Debug */,
-				157D7F6C6E542A4C4E2658F27B6B22E0 /* Release */,
+				A4596610A5906C0A8C5D1877E2342238 /* Debug */,
+				61976C911A5A8BE77EB05587950AC4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26C4B5A988DC5F95D05C54C9CE14616 /* Build configuration list for PBXNativeTarget "Pods-MOLPayXDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F31F3B6CD398D70E45420C7A215E1A5 /* Debug */,
+				43FA98C89EC64EE1819F6727E3553FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

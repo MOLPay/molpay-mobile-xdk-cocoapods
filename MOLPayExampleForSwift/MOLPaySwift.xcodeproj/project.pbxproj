@@ -101,7 +101,6 @@
 				F1D890C51FD07204007DA4CB /* Sources */,
 				F1D890C61FD07204007DA4CB /* Frameworks */,
 				F1D890C71FD07204007DA4CB /* Resources */,
-				948F54F17EB95671A6048D16 /* [CP] Embed Pods Frameworks */,
 				12FDA372B9A0E29E45509966 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -167,31 +166,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MOLPaySwift/Pods-MOLPaySwift-resources.sh",
-				"${PODS_ROOT}/MOLPayXDK/MOLPayXDK.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-MOLPaySwift/Pods-MOLPaySwift-resources.sh",
+				"${PODS_ROOT}/../../MOLPayXDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MOLPayXDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MOLPaySwift/Pods-MOLPaySwift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		948F54F17EB95671A6048D16 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MOLPaySwift/Pods-MOLPaySwift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MOLPaySwift/Pods-MOLPaySwift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E6DC35A35955F5871F25C9CA /* [CP] Check Pods Manifest.lock */ = {
@@ -209,7 +193,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

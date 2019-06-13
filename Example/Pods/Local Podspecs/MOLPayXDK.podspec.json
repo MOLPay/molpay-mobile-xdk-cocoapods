@@ -1,6 +1,6 @@
 {
   "name": "MOLPayXDK",
-  "version": "3.24.0",
+  "version": "3.25.0",
   "summary": "Razer Merchant Services Mobile XDK",
   "description": "Razer Merchant Services mobile payment for iOS (Cocoapods Framework)",
   "homepage": "https://github.com/MOLPay/rms-mobile-xdk-cocoapods",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/MOLPay/rms-mobile-xdk-cocoapods.git",
-    "tag": "3.24.0"
+    "tag": "3.25.0"
   },
   "platforms": {
     "ios": "9.0"

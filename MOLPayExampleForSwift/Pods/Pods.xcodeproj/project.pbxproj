@@ -6,153 +6,180 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B3FDE5A9FE00A91B1FB3F189ADEFE7B5 /* MOLPayXDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8F9603D7BCF696276FC0C3A2EB04058B /* Build configuration list for PBXAggregateTarget "MOLPayXDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = MOLPayXDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		257F45248A965F799CD2DD6B8642D557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		B75C6D136B30F106595999C1713F7E6D /* Pods-MOLPaySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24485F67B847A5EED028EA04BF867EDF /* Pods-MOLPaySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2B6D60D5CACF02FE59A9C7BA0937EB0 /* Pods-MOLPaySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F8928CB26014D3824496E716B09B0D /* Pods-MOLPaySwift-dummy.m */; };
+		83D75438DE97EDA86AD700B7A9DAEB15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B06868F51B45D4D815FBBF5FA2A7852B /* Pods-MOLPaySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00642B40D3532E25172D10C4E62FFA1D /* Pods-MOLPaySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E83D1111427450E1D312F1FB05A7A61D /* Pods-MOLPaySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7C1D262684D5D50CAD96EE6FBBF2E /* Pods-MOLPaySwift-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2FB474E4729D906187AC95B2DD0F3055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3FDE5A9FE00A91B1FB3F189ADEFE7B5;
+			remoteInfo = MOLPayXDK;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		09EFFEC4158A8850A3B3F4AA71F6FBAC /* Pods-MOLPaySwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MOLPaySwift-resources.sh"; sourceTree = "<group>"; };
-		24485F67B847A5EED028EA04BF867EDF /* Pods-MOLPaySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MOLPaySwift-umbrella.h"; sourceTree = "<group>"; };
-		2F3E70DC80DFE97195DFC95E94E78E83 /* Pods-MOLPaySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOLPaySwift.debug.xcconfig"; sourceTree = "<group>"; };
-		39F8928CB26014D3824496E716B09B0D /* Pods-MOLPaySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MOLPaySwift-dummy.m"; sourceTree = "<group>"; };
-		5A0412EC78C478F2D7DD1A1B6C0FF196 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D23D8F814228E163E1B028E96D71463 /* MOLPayLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MOLPayLib.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B0BDF9356D9369EE8B8C1EDF9D924E2 /* Pods-MOLPaySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MOLPaySwift.modulemap"; sourceTree = "<group>"; };
-		A2A46AA96E8A38D02EC59D944BDC486B /* Pods-MOLPaySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOLPaySwift.release.xcconfig"; sourceTree = "<group>"; };
-		ABFF3E3E04BAB62EF30222218ECE330C /* Pods-MOLPaySwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MOLPaySwift-frameworks.sh"; sourceTree = "<group>"; };
-		C6991335D04F89535CAE1CC0BBDF08CE /* Pods-MOLPaySwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MOLPaySwift-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CE74EDED348ADAC4A2E6DEF6A674C16E /* Pods_MOLPaySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MOLPaySwift.framework; path = "Pods-MOLPaySwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB19D55B57DCD7A4B7BB9424230350D4 /* MOLPayXDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayXDK.framework; sourceTree = "<group>"; };
-		F53C518ACF21465288FDB46548D5D922 /* Pods-MOLPaySwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOLPaySwift-acknowledgements.plist"; sourceTree = "<group>"; };
-		FCCF9BEA1EFF56B8DB2D536C47781351 /* MOLPayXDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MOLPayXDK.bundle; sourceTree = "<group>"; };
+		00642B40D3532E25172D10C4E62FFA1D /* Pods-MOLPaySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MOLPaySwift-umbrella.h"; sourceTree = "<group>"; };
+		03AF72DBAFE19DFB782235EEE48A7B4C /* Pods-MOLPaySwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOLPaySwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		23B35A7369F08CD7B9658F1E70D8D876 /* Pods-MOLPaySwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MOLPaySwift-resources.sh"; sourceTree = "<group>"; };
+		2D852E5B82606F3BAF8CFB7E515565DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		454415F1610D523E66BFC4DDAB99368B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4583FA84F3E2696D663D17F7CBA83F44 /* MOLPayLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOLPayLib.h; path = Pod/Classes/MOLPayLib.h; sourceTree = "<group>"; };
+		4949FF14B4FD816B3B7C074959F70C24 /* MOLPayXDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MOLPayXDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4DD49A763E8900635B247DA407E0BCBC /* Pods-MOLPaySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MOLPaySwift.modulemap"; sourceTree = "<group>"; };
+		58D8A9E7E36843B842DB5AA8ED5EC2AA /* MOLPayXDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayXDK.framework; sourceTree = "<group>"; };
+		74E7C1D262684D5D50CAD96EE6FBBF2E /* Pods-MOLPaySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MOLPaySwift-dummy.m"; sourceTree = "<group>"; };
+		8BFD11847EC93FE537C403644AF7924E /* MOLPayXDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MOLPayXDK.bundle; sourceTree = "<group>"; };
+		948A9B6119B6D24895AF3695693978FB /* Pods-MOLPaySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOLPaySwift.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6F3FBD9CCFBA0622946E2206A75A847 /* MOLPayXDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOLPayXDK.xcconfig; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE8B5A8F6CD86E057AFF5E507D531205 /* Pods-MOLPaySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOLPaySwift.debug.xcconfig"; sourceTree = "<group>"; };
+		E15909CAB7EEF94EDCFA6B35CEEB5CF9 /* Pods-MOLPaySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOLPaySwift-Info.plist"; sourceTree = "<group>"; };
+		EC22BF44DED5385A28D701B05092FF4A /* Pods-MOLPaySwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MOLPaySwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EEB90AB1B2DF298A5C799F36B1954120 /* Pods_MOLPaySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MOLPaySwift.framework; path = "Pods-MOLPaySwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		385EDAECD0ACD23C0A3E81570F3C4B03 /* Frameworks */ = {
+		0402341190E9E9B96924BD4AE2B7FBFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				257F45248A965F799CD2DD6B8642D557 /* Foundation.framework in Frameworks */,
+				83D75438DE97EDA86AD700B7A9DAEB15 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0334ED9443EF668790E1688030DA5379 /* MOLPayXDK */ = {
+		2E443BEBA8776B44EE920DFC6455F198 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				892E0823D26252FAF3CBA9723088619C /* Frameworks */,
-				45DBB80C81F231CEB4CD385C565DABDA /* Pod */,
-				12B05234731A6375903C9636E38C9C3A /* Resources */,
+				D174726C98D3158D2345289C2083F5E6 /* MOLPayXDK */,
 			);
-			name = MOLPayXDK;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		12B05234731A6375903C9636E38C9C3A /* Resources */ = {
+		37A9F695D050CF1C1B79085AB8F71E25 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FCCF9BEA1EFF56B8DB2D536C47781351 /* MOLPayXDK.bundle */,
+				8BFD11847EC93FE537C403644AF7924E /* MOLPayXDK.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		28271DD6A3AFC62451E573F7C09DFEFD /* Classes */ = {
+		44EC2FF8E2C1907FDA5FA11DBB39637D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D23D8F814228E163E1B028E96D71463 /* MOLPayLib.h */,
+				B6F3FBD9CCFBA0622946E2206A75A847 /* MOLPayXDK.xcconfig */,
 			);
-			name = Classes;
-			path = Classes;
+			name = "Support Files";
+			path = "MOLPayExampleForSwift/Pods/Target Support Files/MOLPayXDK";
 			sourceTree = "<group>";
 		};
-		45DBB80C81F231CEB4CD385C565DABDA /* Pod */ = {
+		7A8D87535375B07E30FE10F4BF93008E /* Pods-MOLPaySwift */ = {
 			isa = PBXGroup;
 			children = (
-				28271DD6A3AFC62451E573F7C09DFEFD /* Classes */,
-			);
-			name = Pod;
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		5ABBBB156937F8D3FF59A21FAFD550DD /* Pods-MOLPaySwift */ = {
-			isa = PBXGroup;
-			children = (
-				5A0412EC78C478F2D7DD1A1B6C0FF196 /* Info.plist */,
-				9B0BDF9356D9369EE8B8C1EDF9D924E2 /* Pods-MOLPaySwift.modulemap */,
-				C6991335D04F89535CAE1CC0BBDF08CE /* Pods-MOLPaySwift-acknowledgements.markdown */,
-				F53C518ACF21465288FDB46548D5D922 /* Pods-MOLPaySwift-acknowledgements.plist */,
-				39F8928CB26014D3824496E716B09B0D /* Pods-MOLPaySwift-dummy.m */,
-				ABFF3E3E04BAB62EF30222218ECE330C /* Pods-MOLPaySwift-frameworks.sh */,
-				09EFFEC4158A8850A3B3F4AA71F6FBAC /* Pods-MOLPaySwift-resources.sh */,
-				24485F67B847A5EED028EA04BF867EDF /* Pods-MOLPaySwift-umbrella.h */,
-				2F3E70DC80DFE97195DFC95E94E78E83 /* Pods-MOLPaySwift.debug.xcconfig */,
-				A2A46AA96E8A38D02EC59D944BDC486B /* Pods-MOLPaySwift.release.xcconfig */,
+				4DD49A763E8900635B247DA407E0BCBC /* Pods-MOLPaySwift.modulemap */,
+				EC22BF44DED5385A28D701B05092FF4A /* Pods-MOLPaySwift-acknowledgements.markdown */,
+				03AF72DBAFE19DFB782235EEE48A7B4C /* Pods-MOLPaySwift-acknowledgements.plist */,
+				74E7C1D262684D5D50CAD96EE6FBBF2E /* Pods-MOLPaySwift-dummy.m */,
+				E15909CAB7EEF94EDCFA6B35CEEB5CF9 /* Pods-MOLPaySwift-Info.plist */,
+				23B35A7369F08CD7B9658F1E70D8D876 /* Pods-MOLPaySwift-resources.sh */,
+				00642B40D3532E25172D10C4E62FFA1D /* Pods-MOLPaySwift-umbrella.h */,
+				CE8B5A8F6CD86E057AFF5E507D531205 /* Pods-MOLPaySwift.debug.xcconfig */,
+				948A9B6119B6D24895AF3695693978FB /* Pods-MOLPaySwift.release.xcconfig */,
 			);
 			name = "Pods-MOLPaySwift";
 			path = "Target Support Files/Pods-MOLPaySwift";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		80F6E9DD7D04ADD4159721010B02F4D1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E26F8095985729F784B865DE865EE329 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				FF5FEF78765656EA2940D54E5E045057 /* Products */,
-				92C76F0CF110D6A744A8D116505A3972 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		892E0823D26252FAF3CBA9723088619C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EB19D55B57DCD7A4B7BB9424230350D4 /* MOLPayXDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		92C76F0CF110D6A744A8D116505A3972 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5ABBBB156937F8D3FF59A21FAFD550DD /* Pods-MOLPaySwift */,
+				7A8D87535375B07E30FE10F4BF93008E /* Pods-MOLPaySwift */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		93F8B5B607801CE5405B39C147B7C5E1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				58D8A9E7E36843B842DB5AA8ED5EC2AA /* MOLPayXDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E26F8095985729F784B865DE865EE329 /* Development Pods */ = {
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0334ED9443EF668790E1688030DA5379 /* MOLPayXDK */,
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
-			name = "Development Pods";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		FF5FEF78765656EA2940D54E5E045057 /* Products */ = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				CE74EDED348ADAC4A2E6DEF6A674C16E /* Pods_MOLPaySwift.framework */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2E443BEBA8776B44EE920DFC6455F198 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FA9D631FA4320B68A0876C376982D7DC /* Products */,
+				80F6E9DD7D04ADD4159721010B02F4D1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D174726C98D3158D2345289C2083F5E6 /* MOLPayXDK */ = {
+			isa = PBXGroup;
+			children = (
+				4583FA84F3E2696D663D17F7CBA83F44 /* MOLPayLib.h */,
+				93F8B5B607801CE5405B39C147B7C5E1 /* Frameworks */,
+				EFC4A4651C6C0C47951B993AAC573C3C /* Pod */,
+				37A9F695D050CF1C1B79085AB8F71E25 /* Resources */,
+				44EC2FF8E2C1907FDA5FA11DBB39637D /* Support Files */,
+			);
+			name = MOLPayXDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFC4A4651C6C0C47951B993AAC573C3C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2D852E5B82606F3BAF8CFB7E515565DD /* LICENSE */,
+				4949FF14B4FD816B3B7C074959F70C24 /* MOLPayXDK.podspec */,
+				454415F1610D523E66BFC4DDAB99368B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FA9D631FA4320B68A0876C376982D7DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB90AB1B2DF298A5C799F36B1954120 /* Pods_MOLPaySwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,222 +187,314 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		85C7C44B4F29DE96A69389609D0386DD /* Headers */ = {
+		FFC97008DAD5BE2550237EBBB9E4B5FB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B75C6D136B30F106595999C1713F7E6D /* Pods-MOLPaySwift-umbrella.h in Headers */,
+				B06868F51B45D4D815FBBF5FA2A7852B /* Pods-MOLPaySwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		305347DCD2C2E02FDBCBD0BCA1DE15C8 /* Pods-MOLPaySwift */ = {
+		E2BCDE564ABECB84436CC34B47748CA7 /* Pods-MOLPaySwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02EBD02ABB175C5DB36A40D6A07F1DE4 /* Build configuration list for PBXNativeTarget "Pods-MOLPaySwift" */;
+			buildConfigurationList = 1DC7C1308EDF4ABC9B7AC5100DF30734 /* Build configuration list for PBXNativeTarget "Pods-MOLPaySwift" */;
 			buildPhases = (
-				5E4E1C5601A0DAF8786C13F1BE66A168 /* Sources */,
-				385EDAECD0ACD23C0A3E81570F3C4B03 /* Frameworks */,
-				85C7C44B4F29DE96A69389609D0386DD /* Headers */,
+				FFC97008DAD5BE2550237EBBB9E4B5FB /* Headers */,
+				981E9C3E0A4A10A5A6CB993AA629D951 /* Sources */,
+				0402341190E9E9B96924BD4AE2B7FBFE /* Frameworks */,
+				05F3C2E74D73179F83F1F85B9AA49D27 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EB9E4FA49F08BEDEFD1A7799FCFBEF29 /* PBXTargetDependency */,
 			);
 			name = "Pods-MOLPaySwift";
 			productName = "Pods-MOLPaySwift";
-			productReference = CE74EDED348ADAC4A2E6DEF6A674C16E /* Pods_MOLPaySwift.framework */;
+			productReference = EEB90AB1B2DF298A5C799F36B1954120 /* Pods_MOLPaySwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FF5FEF78765656EA2940D54E5E045057 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FA9D631FA4320B68A0876C376982D7DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				305347DCD2C2E02FDBCBD0BCA1DE15C8 /* Pods-MOLPaySwift */,
+				B3FDE5A9FE00A91B1FB3F189ADEFE7B5 /* MOLPayXDK */,
+				E2BCDE564ABECB84436CC34B47748CA7 /* Pods-MOLPaySwift */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		05F3C2E74D73179F83F1F85B9AA49D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		5E4E1C5601A0DAF8786C13F1BE66A168 /* Sources */ = {
+		981E9C3E0A4A10A5A6CB993AA629D951 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2B6D60D5CACF02FE59A9C7BA0937EB0 /* Pods-MOLPaySwift-dummy.m in Sources */,
+				E83D1111427450E1D312F1FB05A7A61D /* Pods-MOLPaySwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		EB9E4FA49F08BEDEFD1A7799FCFBEF29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MOLPayXDK;
+			target = B3FDE5A9FE00A91B1FB3F189ADEFE7B5 /* MOLPayXDK */;
+			targetProxy = 2FB474E4729D906187AC95B2DD0F3055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		12E1A8B026C5564AB0CC961E5B9C359D /* Debug */ = {
+		8D96704D4A0C06D4C07AADB0614C87EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		141E12DB426ACF6A63FB5F9A1A63C5ED /* Debug */ = {
+		8F822707CDB6FF49D7E0CA2F4E9FFF14 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F3E70DC80DFE97195DFC95E94E78E83 /* Pods-MOLPaySwift.debug.xcconfig */;
+			baseConfigurationReference = B6F3FBD9CCFBA0622946E2206A75A847 /* MOLPayXDK.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MOLPaySwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MOLPaySwift/Pods-MOLPaySwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MOLPaySwift;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		7D9164A57406017B35DF0588E625A707 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2A46AA96E8A38D02EC59D944BDC486B /* Pods-MOLPaySwift.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MOLPaySwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MOLPaySwift/Pods-MOLPaySwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MOLPaySwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D3A9D7E6435570048A0980A67D7415ED /* Release */ = {
+		9CB7165C9AA95C6AEF033F6A97D79A61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A4EB6018CFA00369AD61618D739CDD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8B5A8F6CD86E057AFF5E507D531205 /* Pods-MOLPaySwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MOLPaySwift/Pods-MOLPaySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MOLPaySwift/Pods-MOLPaySwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D99A589F7CDABB5D584C2078B5D83B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 948A9B6119B6D24895AF3695693978FB /* Pods-MOLPaySwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MOLPaySwift/Pods-MOLPaySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MOLPaySwift/Pods-MOLPaySwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE490B6E5EB15D1F521FE5CBD4A3F14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F3FBD9CCFBA0622946E2206A75A847 /* MOLPayXDK.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -383,25 +502,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02EBD02ABB175C5DB36A40D6A07F1DE4 /* Build configuration list for PBXNativeTarget "Pods-MOLPaySwift" */ = {
+		1DC7C1308EDF4ABC9B7AC5100DF30734 /* Build configuration list for PBXNativeTarget "Pods-MOLPaySwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				141E12DB426ACF6A63FB5F9A1A63C5ED /* Debug */,
-				7D9164A57406017B35DF0588E625A707 /* Release */,
+				A4EB6018CFA00369AD61618D739CDD73 /* Debug */,
+				D99A589F7CDABB5D584C2078B5D83B22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12E1A8B026C5564AB0CC961E5B9C359D /* Debug */,
-				D3A9D7E6435570048A0980A67D7415ED /* Release */,
+				8D96704D4A0C06D4C07AADB0614C87EE /* Debug */,
+				9CB7165C9AA95C6AEF033F6A97D79A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9603D7BCF696276FC0C3A2EB04058B /* Build configuration list for PBXAggregateTarget "MOLPayXDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F822707CDB6FF49D7E0CA2F4E9FFF14 /* Debug */,
+				DE490B6E5EB15D1F521FE5CBD4A3F14D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
