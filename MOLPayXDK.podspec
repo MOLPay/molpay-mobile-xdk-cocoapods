@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MOLPayXDK"
-  s.version          = "3.26.0"
+  s.version          = "3.27.0"
   s.summary          = "Razer Merchant Services Mobile XDK"
   s.description      = "Razer Merchant Services mobile payment for iOS (Cocoapods Framework)"
 
