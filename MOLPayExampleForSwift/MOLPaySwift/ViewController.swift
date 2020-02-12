@@ -30,31 +30,31 @@ class ViewController: UIViewController, MOLPayLibDelegate {
         // Setup payment details
         let paymentRequestDict: [String:Any] = [
             // Mandatory String. A value more than '1.00'
-            "mp_amount": "1.10",
+            "mp_amount": "",
             
             // Mandatory String. Values obtained from MOLPay
-            "mp_username": "username",
-            "mp_password": "password",
-            "mp_merchant_ID": "merchantid",
-            "mp_app_name": "appname",
-            "mp_verification_key": "vkey123",
+            "mp_username": "",
+            "mp_password": "",
+            "mp_merchant_ID": "",
+            "mp_app_name": "",
+            "mp_verification_key": "",
             
             // Mandatory String. Payment values
-            "mp_order_ID": "orderid123",
+            "mp_order_ID": "",
             "mp_currency": "MYR",
             "mp_country": "MY",
             
             // Optional String.
             "mp_channel": "multi", // Use 'multi' for all available channels option. For individual channel seletion, please refer to "Channel Parameter" in "Channel Lists" in the MOLPay API Spec for Merchant pdf.
-            "mp_bill_description": "billdesc",
-            "mp_bill_name": "billname",
+            "mp_bill_description": "description",
+            "mp_bill_name": "name",
             "mp_bill_email": "email@domain.com",
-            "mp_bill_mobile": "+1234567"
+            "mp_bill_mobile": "+60123456789",
             //"mp_channel_editing": NSNumber.init(booleanLiteral:false), // Option to allow channel selection.
             //"mp_editing_enabled": NSNumber.init(booleanLiteral:false), // Option to allow billing information editing.
             
             // Optional, enable for online sandbox testing.
-            //"mp_dev_mode": NSNumber.init(booleanLiteral:false),
+            //"mp_dev_mode": NSNumber.init(booleanLiteral:true),
             
             // Optional for Escrow
             //"mp_is_escrow": "0", // Put "1" to enable escrow

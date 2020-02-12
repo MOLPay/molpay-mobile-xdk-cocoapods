@@ -41,16 +41,16 @@
                                           @"mp_merchant_ID": @"", // Mandatory
                                           @"mp_app_name": @"", // Mandatory
                                           @"mp_order_ID": @"", // Mandatory
-                                          @"mp_currency": @"", // Mandatory
-                                          @"mp_country": @"", // Mandatory
+                                          @"mp_currency": @"MYR", // Mandatory
+                                          @"mp_country": @"MY", // Mandatory
                                           @"mp_verification_key": @"", // Mandatory
-                                          @"mp_channel": @"", // Optional
-                                          @"mp_bill_description": @"", // Optional
-                                          @"mp_bill_name": @"", // Optional
-                                          @"mp_bill_email": @"", // Optional
-                                          @"mp_bill_mobile": @"", // Optional
-                                          @"mp_channel_editing": [NSNumber numberWithBool:NO], // Optional
-                                          @"mp_editing_enabled": [NSNumber numberWithBool:NO] // Optional
+                                          @"mp_channel": @"multi", // Optional
+                                          @"mp_bill_description": @"description", // Optional
+                                          @"mp_bill_name": @"name", // Optional
+                                          @"mp_bill_email": @"email@domain.com", // Optional
+                                          @"mp_bill_mobile": @"+60123456789", // Optional
+                                          //@"mp_channel_editing": [NSNumber numberWithBool:NO], // Optional
+                                          //@"mp_editing_enabled": [NSNumber numberWithBool:NO] // Optional
                                           //@"mp_dev_mode": [NSNumber numberWithBool:NO], // Optional, enable for online sandbox testing.
                                           
                                           //@"mp_transaction_id": @"", // Optional, provide a valid cash channel transaction id here will display a payment instruction screen.
@@ -76,6 +76,7 @@
                                           //@"mp_non_3DS": [NSNumber numberWithBool:YES] // Optional, allow non-3ds on some credit card channels.
                                           //@"mp_card_list_disabled": [NSNumber numberWithBool:YES] // Optional, disable card list option.
                                           //@"mp_disabled_channels": [NSArray arrayWithObjects:@"credit", nil] // Optional for channels restriction, this option has less priority than mp_allowed_channels.
+                                          //@"mp_dev_mode": [NSNumber numberWithBool:YES] 
                                           };
     
     mp = [[MOLPayLib alloc] initWithDelegate:self andPaymentDetails:paymentRequestDict];

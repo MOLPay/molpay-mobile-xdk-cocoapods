@@ -124,7 +124,7 @@
 				TargetAttributes = {
 					F1D890C81FD07204007DA4CB = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -342,13 +342,14 @@
 			baseConfigurationReference = 546E332CA798D8AE7C8BB3E6 /* Pods-MOLPaySwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TW9T5TAQKM;
 				INFOPLIST_FILE = MOLPaySwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.MOLPaySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MOLPayXDKDev20200122;
 				SWIFT_OBJC_BRIDGING_HEADER = "MOLPaySwift/My-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -360,13 +361,14 @@
 			baseConfigurationReference = DDE5D921E48F5AFBC80F1756 /* Pods-MOLPaySwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TW9T5TAQKM;
 				INFOPLIST_FILE = MOLPaySwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.MOLPaySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MOLPayXDKDev20200122;
 				SWIFT_OBJC_BRIDGING_HEADER = "MOLPaySwift/My-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
