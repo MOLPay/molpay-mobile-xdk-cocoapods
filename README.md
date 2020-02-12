@@ -75,7 +75,7 @@ This is the complete and functional Razer Merchant Services iOS payment module t
         @"mp_country": @"MY",
         
         // Optional, but required payment values. User input will be required when values not passed.
-        @"mp_channel": @"multi", // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/RazerMS/molpay-mobile-xdk-examples/blob/master/channel_list.tsv.
+        @"mp_channel": @"multi", // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/RazerMS/rms-mobile-xdk-examples/blob/master/channel_list.tsv.
         @"mp_bill_description": @"billdesc",
         @"mp_bill_name": @"billname",
         @"mp_bill_email": @"email@domain.com",
@@ -102,7 +102,7 @@ This is the complete and functional Razer Merchant Services iOS payment module t
         // Optional, use 'Receipt' for Cash channels, and 'Status' for transaction status query.
         @"mp_request_type": @"",
     
-        // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file can be obtained at https://github.com/RazerMS/molpay-mobile-xdk-examples/blob/master/custom.css.
+        // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file can be obtained at https://github.com/RazerMS/rms-mobile-xdk-examples/blob/master/custom.css.
         @"mp_custom_css_url": [[NSBundle mainBundle] pathForResource:@"custom.css" ofType:nil],
     
         // Optional, set the token id to nominate a preferred token as the default selection, set "new" to allow new card only.
