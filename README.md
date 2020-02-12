@@ -2,7 +2,7 @@
  # license: Copyright © 2011-2019 MOLPay Sdn Bhd. All Rights Reserved. 
  -->
 
-<img src="https://user-images.githubusercontent.com/38641542/39353138-654385dc-4a39-11e8-9710-19e5f03ec62e.jpg">
+<img src="https://user-images.githubusercontent.com/38641542/74150364-ba947500-4c44-11ea-8d79-ae8cd4352816.jpg">
 
 # rms-mobile-xdk-cocoapods
 
@@ -75,7 +75,7 @@ This is the complete and functional Razer Merchant Services iOS payment module t
         @"mp_country": @"MY",
         
         // Optional, but required payment values. User input will be required when values not passed.
-        @"mp_channel": @"multi", // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/MOLPay/molpay-mobile-xdk-examples/blob/master/channel_list.tsv.
+        @"mp_channel": @"multi", // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/RazerMS/molpay-mobile-xdk-examples/blob/master/channel_list.tsv.
         @"mp_bill_description": @"billdesc",
         @"mp_bill_name": @"billname",
         @"mp_bill_email": @"email@domain.com",
@@ -102,7 +102,7 @@ This is the complete and functional Razer Merchant Services iOS payment module t
         // Optional, use 'Receipt' for Cash channels, and 'Status' for transaction status query.
         @"mp_request_type": @"",
     
-        // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file can be obtained at https://github.com/MOLPay/molpay-mobile-xdk-examples/blob/master/custom.css.
+        // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file can be obtained at https://github.com/RazerMS/molpay-mobile-xdk-examples/blob/master/custom.css.
         @"mp_custom_css_url": [[NSBundle mainBundle] pathForResource:@"custom.css" ofType:nil],
     
         // Optional, set the token id to nominate a preferred token as the default selection, set "new" to allow new card only.
@@ -171,7 +171,7 @@ This is the complete and functional Razer Merchant Services iOS payment module t
         "mp_country": "MY",
         
         // Optional, but required payment values. User input will be required when values not passed.
-        "mp_channel": "multi", // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/MOLPay/molpay-mobile-xdk-examples/blob/master/channel_list.tsv.
+        "mp_channel": "multi", // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/RazerMS/molpay-mobile-xdk-examples/blob/master/channel_list.tsv.
         "mp_bill_description": "billdesc",
         "mp_bill_name": "billname",
         "mp_bill_email": "email@domain.com",
@@ -198,7 +198,7 @@ This is the complete and functional Razer Merchant Services iOS payment module t
         // Optional, use 'Receipt' for Cash channels, and 'Status' for transaction status query.
         "mp_request_type": "",
     
-        // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file can be obtained at https://github.com/MOLPay/molpay-mobile-xdk-examples/blob/master/custom.css.
+        // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file can be obtained at https://github.com/RazerMS/molpay-mobile-xdk-examples/blob/master/custom.css.
         "mp_custom_css_url": Bundle.main.path(forResource: "custom.css", ofType: nil)!,
     
         // Optional, set the token id to nominate a preferred token as the default selection, set "new" to allow new card only.
@@ -309,7 +309,7 @@ This is the complete and functional Razer Merchant Services iOS payment module t
     
     Parameter and meaning:
     
-    "Communication Error" - Error starting a payment process due to several possible reasons, please contact MOLPay support should the error persists.
+    "Communication Error" - Error starting a payment process due to several possible reasons, please contact Razer Merchant Services support should the error persists.
     1) Internet not available
     2) API credentials (username, password, merchant id, verify key)
     3) MOLPay server offline.
@@ -336,12 +336,12 @@ This is the complete and functional Razer Merchant Services iOS payment module t
 
 ## Support
 
-Submit issue to this repository or email to our support@molpay.com
+Submit issue to this repository or email to our support-sa@razer.com
 
-Merchant Technical Support / Customer Care : support@molpay.com<br>
-Sales/Reseller Enquiry : sales@molpay.com<br>
-Marketing Campaign : marketing@molpay.com<br>
-Channel/Partner Enquiry : channel@molpay.com<br>
-Media Contact : media@molpay.com<br>
-R&D and Tech-related Suggestion : technical@molpay.com<br>
-Abuse Reporting : abuse@molpay.com
+Merchant Technical Support / Customer Care : suppor-sa@razer.com<br>
+Sales/Reseller Enquiry : sales-sa@razer<br>
+Marketing Campaign : marketin-sa@razer<br>
+Channel/Partner Enquiry : channel-sa@razer<br>
+Media Contact : media-sa@razer.com<br>
+R&D and Tech-related Suggestion : technical-sa@razer.com<br>
+Abuse Reporting : abuse-sa@razer.com
