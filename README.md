@@ -2,9 +2,9 @@
  # license: Copyright © 2011-2019 MOLPay Sdn Bhd. All Rights Reserved. 
  -->
 
-<img src="https://user-images.githubusercontent.com/38641542/74150364-ba947500-4c44-11ea-8d79-ae8cd4352816.jpg">
-
 # rms-mobile-xdk-cocoapods
+
+<img src="https://user-images.githubusercontent.com/38641542/74424311-a9d64000-4e8c-11ea-8d80-d811cfe66972.jpg">
 
 This is the complete and functional Razer Merchant Services iOS payment module that is ready to be implemented into Xcode application project through Cocoapods framework. An example Cocoapods application project (Example) is provided for MOLPayXDK framework integration reference.
 
@@ -198,7 +198,7 @@ This is the complete and functional Razer Merchant Services iOS payment module t
         // Optional, use 'Receipt' for Cash channels, and 'Status' for transaction status query.
         "mp_request_type": "",
     
-        // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file can be obtained at https://github.com/RazerMS/molpay-mobile-xdk-examples/blob/master/custom.css.
+        // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file can be obtained at https://github.com/RazerMS/rms-mobile-xdk-examples/blob/master/custom.css.
         "mp_custom_css_url": Bundle.main.path(forResource: "custom.css", ofType: nil)!,
     
         // Optional, set the token id to nominate a preferred token as the default selection, set "new" to allow new card only.
