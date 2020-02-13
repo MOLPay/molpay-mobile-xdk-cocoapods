@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
   s.summary          = "Razer Merchant Services Mobile XDK"
   s.description      = "Razer Merchant Services mobile payment for iOS (Cocoapods Framework)"
 
-  s.homepage         = "https://github.com/MOLPay/rms-mobile-xdk-cocoapods"
+  s.homepage         = "https://github.com/RazerMS/rms-mobile-xdk-cocoapods"
   s.license          = 'MIT'
-  s.author           = { "MOLPay Mobile Division" => "mobile@molpay.com" }
-  s.source           = { :git => "https://github.com/MOLPay/rms-mobile-xdk-cocoapods.git", :tag => s.version.to_s }
+  s.author           = { "Razer Mobile Division" => "mobile@molpay.com" }
+  s.source           = { :git => "https://github.com/RazerMS/rms-mobile-xdk-cocoapods.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '9.0'
   s.requires_arc = true
