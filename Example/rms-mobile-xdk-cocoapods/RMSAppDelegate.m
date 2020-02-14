@@ -7,12 +7,17 @@
 //
 
 #import "RMSAppDelegate.h"
+#import "RMSViewController.h"
 
 @implementation RMSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    RMSViewController *rmsvc = [[RMSViewController alloc] init];
+    [rmsvc.view setBackgroundColor:[UIColor whiteColor]];
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:rmsvc];
+    self.window.rootViewController = nc;
     return YES;
 }
 
